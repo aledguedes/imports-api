@@ -6531,6 +6531,7 @@
    ],
    "teams":[
       {
+         "id": 1,
          "name":"Gaviões da Liberdade Futebol Clube",
          "surname":"Gaviões da Liberdade",
          "acronym":"GDLFC",
@@ -6542,6 +6543,7 @@
          "updated_at":"2024-09-07T12:00:13.000000Z"
       },
       {
+         "id": 2,
          "name":"Estrela do Norte FC",
          "surname":"Estrela do Norte",
          "acronym":"ENCFC",
@@ -6553,6 +6555,7 @@
          "updated_at":"2024-09-07T12:00:13.000000Z"
       },
       {
+         "id": 3,
          "name":"Sport Club Leões da Montanha",
          "surname":"Leões da Montanha",
          "acronym":"SCLDM",
@@ -6564,6 +6567,7 @@
          "updated_at":"2024-09-07T12:00:13.000000Z"
       },
       {
+         "id": 4,
          "name":"Sociedade Sportiva Dragões do Sul",
          "surname":"Dragões do Sul",
          "acronym":"SSDS",
@@ -6575,6 +6579,7 @@
          "updated_at":"2024-09-07T12:00:13.000000Z"
       },
       {
+         "id": 5,
          "name":"Falcões do Leste Footbol",
          "surname":"Falcões",
          "acronym":"FDL",
