@@ -7252,16 +7252,97 @@
          "federations_id":2
       }
    ],
+   "users": [
+      [
+         {
+             "name": "John Doe",
+             "surname": "John",
+             "email": "john@example.com",
+             "status": "ATIVO",
+             "img_perfil": "user/default.jpg",
+             "phone": "00123456789",
+             "password": "hashed_password1",
+             "birth_date": "1990-01-15",
+             "federation": 1,
+             "role": "admin",
+             "created_at": "2023-08-07",
+             "updated_at": "2023-08-07"
+         },
+         {
+             "name": "Jane Smith",
+             "surname": "Jane",
+             "email": "jane@example.com",
+             "status": "ATIVO",
+             "img_perfil": "user/default.jpg",
+             "phone": "11111111111",
+             "password": "hashed_password2",
+             "birth_date": "1985-05-20",
+             "federation": 1,
+             "role": "controller",
+             "created_at": "2023-08-07",
+             "updated_at": "2023-08-07"
+         },
+         {
+             "name": "Alice Johnson",
+             "surname": "Johnson",
+             "email": "alice@example.com",
+             "status": "ATIVO",
+             "img_perfil": null,
+             "phone": "22222222222",
+             "password": "hashed_password3",
+             "birth_date": "1992-11-10",
+             "federation": 1,
+             "role": "user",
+             "created_at": "2023-08-07",
+             "updated_at": "2023-08-07"
+         }
+     ]
+     
+   ],
     "federation":[
       {
          "id": 1,
-          "name":"Federação Xandiana de Futebol",
-          "surname":"Sport League",
-          "status":"Ativa",
-          "img_logo":"",
-          "created_at":"2024-09-07T12:00:13.000000Z",
-          "updated_at":"2024-09-07T12:00:13.000000Z",
-          "users_id":1
+         "name": "Federação Kokama de Futebol",
+         "abbreviation": "FKKF",
+         "status": "Ativo",
+         "img_perfil": "federation/default.png",
+         "created_at": "2023-08-16",
+         "updated_at": "2023-08-16",
+         "other_field": 1
+     },
+     {
+         "id": 2,
+         "name": "Federação Xandiana",
+         "abbreviation": "FEXAN",
+         "status": "Ativo",
+         "img_perfil": "federation/default.png",
+         "created_at": "2023-08-31",
+         "updated_at": "2023-08-31",
+         "other_field": 2
+     }
+    ],
+    "leagues": [
+      {
+          "id": 1,
+          "name": "LIGA_A",
+          "start_date": "2023-09-01",
+          "end_date": "2024-09-01",
+          "updated_date": "2024-09-01",
+          "final_date": "2024-09-01",
+          "location": "Batatais/SP",
+          "format": "Pontos Corridos",
+          "stadium": "Canindé",
+          "federation_id": 1,
+          "league_type": 1,
+          "img_perfil": "league/default.png",
+          "status": "Em preparação",
+          "other_field_1": 1,
+          "is_active": true,
+          "created_at": "2023-08-16",
+          "updated_at": "2023-08-16",
+          "other_field_2": 14,
+          "other_field_3": null
       }
-    ]
+  ]
+  
 }
