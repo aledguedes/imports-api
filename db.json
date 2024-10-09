@@ -7255,6 +7255,7 @@
    "users": [
       [
          {
+            "id": 1,
              "name": "John Doe",
              "surname": "John",
              "email": "john@example.com",
@@ -7269,6 +7270,7 @@
              "updated_at": "2023-08-07"
          },
          {
+            "id": 2,
              "name": "Jane Smith",
              "surname": "Jane",
              "email": "jane@example.com",
@@ -7283,6 +7285,7 @@
              "updated_at": "2023-08-07"
          },
          {
+            "id": 3,
              "name": "Alice Johnson",
              "surname": "Johnson",
              "email": "alice@example.com",
@@ -7303,22 +7306,20 @@
       {
          "id": 1,
          "name": "Federação Kokama de Futebol",
-         "abbreviation": "FKKF",
+         "surname": "FKKF",
          "status": "Ativo",
          "img_perfil": "federation/default.png",
          "created_at": "2023-08-16",
-         "updated_at": "2023-08-16",
-         "other_field": 1
+         "updated_at": "2023-08-16"
      },
      {
          "id": 2,
          "name": "Federação Xandiana",
-         "abbreviation": "FEXAN",
+         "surname": "FEXAN",
          "status": "Ativo",
          "img_perfil": "federation/default.png",
          "created_at": "2023-08-31",
-         "updated_at": "2023-08-31",
-         "other_field": 2
+         "updated_at": "2023-08-31"
      }
     ],
     "leagues": [
@@ -7344,5 +7345,4 @@
           "other_field_3": null
       }
   ]
-  
 }
