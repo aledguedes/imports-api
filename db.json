@@ -7345,36 +7345,70 @@
     }
   ],
   "status": [
+    { "id": 1, "value": "active", "label": "Ativo" },
+    { "id": 2, "value": "inactive", "label": "Inativo" },
+    { "id": 3, "value": "suspend", "label": "Suspenso" },
+    { "id": 4, "value": "blocked", "label": "Bloqueado" },
+    { "id": 5, "value": "pending", "label": "Pendente" },
+    { "id": 6, "value": "retired", "label": "Aposentado" },
+    { "id": 7, "value": "onHold", "label": "Em Espera" },
+    { "id": 8, "value": "inactiveForSeason", "label": "Inativo por Temporada" },
+    { "id": 9, "value": "activeSuspended", "label": "Ativo (Suspenso)" },
+    { "id": 10, "value": "underReview", "label": "Sob Revisão" },
+    { "id": 11, "value": "disqualified", "label": "Desqualificado" },
+    { "id": 12, "value": "scheduled", "label": "Agendado" }
+  ],
+  "positions": [
     {
       "id": 1,
-      "value": "active",
-      "label": "Ativo"
+      "value": "atacante",
+      "label": "Atacante",
+      "modalities": ["campo", "canindé"]
     },
     {
       "id": 2,
-      "value": "inactive",
-      "label": "Inativo"
+      "value": "goleiro",
+      "label": "Goleiro",
+      "modalities": ["campo", "futsal", "canindé"]
     },
     {
       "id": 3,
-      "value": "suspend",
-      "label": "Suspenso"
+      "value": "lateral",
+      "label": "Lateral",
+      "modalities": ["campo", "canindé"]
     },
     {
       "id": 4,
-      "value": "blocked",
-      "label": "Bloqueado"
+      "value": "zagueiro",
+      "label": "Zagueiro",
+      "modalities": ["campo", "canindé"]
+    },
+    {
+      "id": 5,
+      "value": "meia",
+      "label": "Meia",
+      "modalities": ["campo", "canindé"]
+    },
+    {
+      "id": 6,
+      "value": "volante",
+      "label": "Volante",
+      "modalities": ["campo", "canindé"]
+    },
+    { "id": 7, "value": "ala", "label": "Ala", "modalities": ["futsal"] },
+    { "id": 8, "value": "pivô", "label": "Pivô", "modalities": ["futsal"] },
+    { "id": 9, "value": "fixo", "label": "Fixo", "modalities": ["futsal"] },
+    {
+      "id": 10,
+      "value": "ponta",
+      "label": "Ponta",
+      "modalities": ["campo", "canindé"]
+    },
+    {
+      "id": 11,
+      "value": "goleiro de areia",
+      "label": "Goleiro de Areia",
+      "modalities": ["areia"]
     }
-  ],
-  "position": [
-    { "id": 1, "value": "atacante", "label": "Atacante", "system": [] },
-    { "id": 1, "value": "goleiro", "label": "Goleiro", "system": [] },
-    { "id": 1, "value": "lateral", "label": "Lateral", "system": [] },
-    { "id": 1, "value": "zagueiro", "label": "Zagueiro", "system": [] },
-    { "id": 1, "value": "meia", "label": "Meia", "system": [] },
-    { "id": 1, "value": "volante", "label": "Volante", "system": [] },
-    { "id": 1, "value": "ala", "label": "Ala", "system": [] },
-    { "id": 1, "value": "pivô", "label": "Pivô", "system": [] },
-    { "id": 1, "value": "fixo", "label": "Fixo", "system": [] }
   ]
 }
